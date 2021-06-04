@@ -16,8 +16,14 @@ $(function () {
             popup.id = popupIdentifier;
             document.body.append(popup);
 
-            let bsModal = new bootstrap.Modal($('div#' + popupIdentifier + ' .modal'));
+            let container = document.getElementById(popupIdentifier);
+            let popupEl = container.getElementsByClassName('modal')[0];
+            let bsModal = new bootstrap.Modal(popupEl);
             bsModal.show();
+
+            popupEl.addEventListener('hidden.bs.modal', function () {
+                container.remove();
+            });
         }
 
         init()

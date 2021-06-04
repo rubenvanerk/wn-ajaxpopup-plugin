@@ -14,7 +14,6 @@ class AjaxPopup extends ComponentBase
 
     public function onRun()
     {
-//        $this->addJs('/plugins/wrve/ajaxpopup/components/ajaxpopup/assets/ajaxUtils.js');
         $this->addJs('/plugins/wrve/ajaxpopup/components/ajaxpopup/assets/ajaxPopup.js');
     }
 }
