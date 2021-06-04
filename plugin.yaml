@@ -1,0 +1,6 @@
+plugin:
+    name: AjaxPopup
+    description: 'Plugin that adds support for dynamic popups'
+    author: WRvE
+    icon: oc-icon-window-maximize
+    homepage: ''
