@@ -1,0 +1,8 @@
+{
+    "name": "wrve/wn-ajaxpopup-plugin",
+    "type": "winter-plugin",
+    "description": "Plugin to show dynamic popups in frontend themes",
+    "homepage": "https://github.com/rubenvanerk/wn-ajaxpopup-plugin",
+    "keywords": ["winter", "wintercms"],
+    "license": "MIT",
+}
